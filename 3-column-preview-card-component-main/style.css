@@ -1,4 +1,4 @@
-/* reset */
+/*Custom Properties*/
 :root{
 	--clr-organe:  hsl(31, 77%, 52%);
 	--clr-cyan: hsl(184, 100%, 22%) ;
@@ -10,7 +10,7 @@
 	--clr-neutral-400: hsl(0, 0%, 95%);
 
 	--fs-400: .938rem;
-	--fs-700: 2rem;
+	--fs-700: 2.5rem;
 
 	--fw-400: 400;
 	--fw-700: 700;
@@ -19,6 +19,8 @@
 	--ff-body: 'Lexend Deca', sans-serif;
 }
 
+/*Utilities Classes*/
+
 .primary-header{
 	font-family: var(--ff-header);
 	font-weight: var(--fw-700);
@@ -26,6 +28,8 @@
 	text-transform: uppercase;
 	color: var(--clr-neutral-170);
 }
+
+/* reset */
 
 /* Box sizing rules */
 *,
@@ -122,7 +126,7 @@ body {
 	border-radius: .5em;
 	display: grid;
 	overflow: hidden;
-	transition: all .2s;
+	/* transition: all .2s; */
 }
 
 @media(max-width: 700px){
@@ -167,10 +171,10 @@ body {
 .button{
 	background-color: var(--clr-neutral-0);
 	border: 0;
-	border-radius: 1.2em;
-	padding: .5em 2em;
+	border-radius: 1.5em;
+	padding: .8em 2em;
 	width: fit-content;
-	transition: all linear .2s;
+	/* transition: all ease-in .2s; */
 }
 
 @media (min-width: 700px){
@@ -180,11 +184,6 @@ body {
 
 	.button{
 		margin-top: 3em;
-	}
-
-	:root{
-		--fs-400: .738rem;
-		--fs-700: 2rem;
 	}
 
 	p{
