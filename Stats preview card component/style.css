@@ -116,7 +116,7 @@ body {
 
 
 
-@media (max-width: 1244px) {
+@media (max-width: 1044px) {
 
   .wrapper{
     --max-width: 375px;
@@ -186,34 +186,35 @@ body {
 /* Responsive */
 
 
-@media (min-width: 1244px){
+@media (min-width: 1044px){
   
   :root{
-    --fs-400: 1rem;
-    --fs-700: 2.5rem;
+    --fs-400: .938rem;
+    --fs-700: 2.3rem;
   }
 
   .card{
     display: grid;
-    grid-template-columns: repeat(2, 700px);
+    grid-template-columns: repeat(2, 1fr);
     width: fit-content;
   }
 
   .card__img{
     background-image: url(images/image-header-desktop.jpg);
     background-size: cover;
+    background-position: center;
     background-color: var(--clr-primary-400);
     background-blend-mode: multiply;
     grid-column: 2;
   }
 
   .wrapper{
-
-      --max-width: 1440px;
+      --max-width: 1140px;
       --spacing: 2em;
   
       width: min(var(--max-width), calc(100% - var(--spacing)*2));
       margin-inline: auto;
+      
     }
   
 
@@ -229,7 +230,7 @@ body {
   --fs-700: 1.7rem;
   --fs-400: .8rem;
 
-  margin-top: 3em;
+  margin-top: 2em;
   font-weight: var(--fw-bold);
   display: flex;
   gap: calc(var(--gap)*3);
@@ -238,7 +239,7 @@ body {
 
 .card__content div:first-child p{
   font-family: var(--ff-deca);
-  max-width: 78%;
+  max-width: 90%;
   margin-top: 1em;
 }
 
