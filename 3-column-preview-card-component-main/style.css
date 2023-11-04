@@ -1,4 +1,4 @@
-/*Custom Properties*/
+/* reset */
 :root{
 	--clr-organe:  hsl(31, 77%, 52%);
 	--clr-cyan: hsl(184, 100%, 22%) ;
@@ -19,8 +19,6 @@
 	--ff-body: 'Lexend Deca', sans-serif;
 }
 
-/*Utilities Classes*/
-
 .primary-header{
 	font-family: var(--ff-header);
 	font-weight: var(--fw-700);
@@ -28,8 +26,6 @@
 	text-transform: uppercase;
 	color: var(--clr-neutral-170);
 }
-
-/* reset */
 
 /* Box sizing rules */
 *,
@@ -136,9 +132,10 @@ body {
 }
 
 .cards{
-	padding: 3em;
+	padding: 3.4em 2.8em;
 	display: grid;
 	gap: 1.5em;
+	outline: 2px solid lime;
 }
 
 .cards img{
@@ -183,7 +180,7 @@ body {
 	}
 
 	.button{
-		margin-top: 3em;
+		margin-top: 5em;
 	}
 
 	p{
