@@ -174,7 +174,7 @@ body {
 	border-radius: 1.5em;
 	padding: .8em 2em;
 	width: fit-content;
-	/* transition: all ease-in .2s; */
+	transition: all ease-in .2s;
 }
 
 @media (min-width: 700px){
